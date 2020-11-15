@@ -13,7 +13,6 @@
         <el-menu-item id="Button3" index="/timetable">TIMETABLE</el-menu-item>
         <el-menu-item id="Button4" index="/map">MAP</el-menu-item>
         <el-menu-item id="Button5" index="/feedback">FEEDBACK</el-menu-item>
-        <el-menu-item id="Button6" index="/userManage">USER MANAGEMENT</el-menu-item>
         <i class="el-icon-switch-button" v-on:click="logout" style="float: right;font-size: 20px;color: burlywood; padding: 10px"></i>
       </el-menu>
     </div>
@@ -147,10 +146,6 @@ body{
   font-size: 18px;
 }
 #Button5{
-  margin-left: 10px;
-  font-size: 18px;
-}
-#Button6{
   margin-left: 10px;
   font-size: 18px;
 }

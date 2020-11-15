@@ -10,7 +10,6 @@
         <el-menu-item id="Button3" index="/timetable">TIMETABLE</el-menu-item>
         <el-menu-item id="Button4" index="/map">MAP</el-menu-item>
         <el-menu-item id="Button5" index="/feedback">FEEDBACK</el-menu-item>
-        <el-menu-item id="Button6" index="/userManage">USER MANAGEMENT</el-menu-item>
         <i class="el-icon-switch-button" v-on:click="logout" style="float: right;font-size: 20px;color: burlywood; padding: 10px"></i>
       </el-menu>
     </div>
@@ -63,43 +62,39 @@
           <!-- Page Content -->
           <div class="container">
             <div class="row">
-              <!-- Team Member 1 -->
               <div class="col-xl-3 col-md-6 mb-4">
                 <div class="card border-0 shadow">
-                  <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+                  <img src="../../assets/team1.jpg" class="card-img-top" alt="..." id="team1">
                   <div class="card-body text-center">
                     <h5 class="card-title mb-0">Team Member</h5>
                     <div class="card-text text-black-50">Web Developer</div>
                   </div>
                 </div>
               </div>
-              <!-- Team Member 2 -->
               <div class="col-xl-3 col-md-6 mb-4">
                 <div class="card border-0 shadow">
-                  <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
+                  <img src="../../assets/team2.jpg" class="card-img-top" alt="..." id="team2">
                   <div class="card-body text-center">
                     <h5 class="card-title mb-0">Team Member</h5>
                     <div class="card-text text-black-50">Web Developer</div>
                   </div>
                 </div>
               </div>
-              <!-- Team Member 3 -->
               <div class="col-xl-3 col-md-6 mb-4">
                 <div class="card border-0 shadow">
-                  <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
+                  <img src="../../assets/team3.jpg" class="card-img-top" alt="..." id="team3">
                   <div class="card-body text-center">
                     <h5 class="card-title mb-0">Team Member</h5>
-                    <div class="card-text text-black-50">Web Developer</div>
+                    <div class="card-text text-black-50">Project Manager</div>
                   </div>
                 </div>
               </div>
-              <!-- Team Member 4 -->
               <div class="col-xl-3 col-md-6 mb-4">
                 <div class="card border-0 shadow">
-                  <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
+                  <img src="../../assets/team4.jpg" class="card-img-top" alt="..." id="team4">
                   <div class="card-body text-center">
                     <h5 class="card-title mb-0">Team Member</h5>
-                    <div class="card-text text-black-50">Web Developer</div>
+                    <div class="card-text text-black-50">Project Manager</div>
                   </div>
                 </div>
               </div>
@@ -177,10 +172,6 @@ body{
   margin-left: 10px;
   font-size: 18px;
 }
-#Button6{
-  margin-left: 10px;
-  font-size: 18px;
-}
 .text-center{
   margin-top: 5px;
 }
@@ -188,5 +179,17 @@ body{
   cursor: pointer;
   outline: 0;
   margin-top: 10px;
+}
+#team1{
+  height: 179px;
+}
+#team2{
+  height: 179px;
+}
+#team3{
+  height: 179px;
+}
+#team4{
+  height: 179px;
 }
 </style>
